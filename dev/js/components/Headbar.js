@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HeadBar = () => (
-  <nav className="navbar navbar-default">
+  <nav className="navbar navbar-default navbar-fixed-top">
     <div className="container-fluid header_custom">
       <div className="navbar-header">
         <a className="navbar-brand" href="#">RetaildashUI</a>

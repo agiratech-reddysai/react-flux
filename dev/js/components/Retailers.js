@@ -41,6 +41,7 @@ class Retailers extends React.Component {
 
   render() {
     return(<div>
+      <div className="modal-header"><h3 className="modal-title">Retailers</h3></div>
       <Griddle results={this.state.retailers} columns={["name","currency","active","id"]} columnMetadata={[{columnName:"active",displayName:"Active",customComponent:ConvBool},
       {columnName:"id",displayName:"Events",customComponent:Event}]}/>
       </div>);

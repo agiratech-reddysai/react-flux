@@ -72,27 +72,9 @@ const SideBar = () => (
                   </span>
               </Link>
           </li>
-          <li>
-              <Link to ="/loginAccounts">
-                 <i className="menu-icon fa fa-sun-o fa-2x"></i>
-                  <span className="nav-text">
-                      Login Accounts
-                  </span>
-              </Link>
-          </li>
-      </ul>
-
-      <ul className="logout">
-          <li>
-             <a>
-                  <i className="fa fa-power-off fa-2x"></i>
-                  <span className="nav-text">
-                      Logout
-                  </span>
-              </a>
-          </li>
       </ul>
   </nav>
 )
 
 export default SideBar;
+
